@@ -12,7 +12,6 @@ public class main_class {
 	public static void main(String[] args)throws Exception {
 		
 		//open file
-		System.out.print("File path:");	//delete me
 		Scanner consoleinput = new Scanner(System.in);
 			
 		FileReader filein = new FileReader(consoleinput.nextLine());			
